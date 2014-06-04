@@ -1,0 +1,7 @@
+[0m[[0minfo[0m] [0mPackaging C:\ROOT\DEV\scala\scala_tool\target\scala-2.10\pts_trader_2.10-0.1.0-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	Main.scala[0m
+[0m[[0mdebug[0m] [0m	  C:\ROOT\DEV\scala\scala_tool\src\main\scala\Main.scala[0m
+[0m[[0mdebug[0m] [0m	util\http\HttpScrayper.scala[0m
+[0m[[0mdebug[0m] [0m	  C:\ROOT\DEV\scala\scala_tool\src\main\scala\util\http\HttpScrayper.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

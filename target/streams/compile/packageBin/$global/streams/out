@@ -1,0 +1,23 @@
+[0m[[0minfo[0m] [0mPackaging C:\ROOT\DEV\scala\scala_tool\target\scala-2.10\pts_trader_2.10-0.1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	util\http\HttpScrayper.class[0m
+[0m[[0mdebug[0m] [0m	  C:\ROOT\DEV\scala\scala_tool\target\scala-2.10\classes\util\http\HttpScrayper.class[0m
+[0m[[0mdebug[0m] [0m	Main$$anonfun$main$2.class[0m
+[0m[[0mdebug[0m] [0m	  C:\ROOT\DEV\scala\scala_tool\target\scala-2.10\classes\Main$$anonfun$main$2.class[0m
+[0m[[0mdebug[0m] [0m	util\http\HttpScrayper$.class[0m
+[0m[[0mdebug[0m] [0m	  C:\ROOT\DEV\scala\scala_tool\target\scala-2.10\classes\util\http\HttpScrayper$.class[0m
+[0m[[0mdebug[0m] [0m	util\http\HttpScrayper$$anonfun$scrape$1$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  C:\ROOT\DEV\scala\scala_tool\target\scala-2.10\classes\util\http\HttpScrayper$$anonfun$scrape$1$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	util[0m
+[0m[[0mdebug[0m] [0m	  C:\ROOT\DEV\scala\scala_tool\target\scala-2.10\classes\util[0m
+[0m[[0mdebug[0m] [0m	Main$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	  C:\ROOT\DEV\scala\scala_tool\target\scala-2.10\classes\Main$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	util\http[0m
+[0m[[0mdebug[0m] [0m	  C:\ROOT\DEV\scala\scala_tool\target\scala-2.10\classes\util\http[0m
+[0m[[0mdebug[0m] [0m	Main$.class[0m
+[0m[[0mdebug[0m] [0m	  C:\ROOT\DEV\scala\scala_tool\target\scala-2.10\classes\Main$.class[0m
+[0m[[0mdebug[0m] [0m	Main.class[0m
+[0m[[0mdebug[0m] [0m	  C:\ROOT\DEV\scala\scala_tool\target\scala-2.10\classes\Main.class[0m
+[0m[[0mdebug[0m] [0m	util\http\HttpScrayper$$anonfun$scrape$1.class[0m
+[0m[[0mdebug[0m] [0m	  C:\ROOT\DEV\scala\scala_tool\target\scala-2.10\classes\util\http\HttpScrayper$$anonfun$scrape$1.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

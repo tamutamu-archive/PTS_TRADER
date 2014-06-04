@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="pts_trader"
+		module="pts_trader_2.10"
+		revision="0.1.0"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20140604170740"/>
+	<dependencies>
+		<module organisation="org.scalatest" name="scalatest_2.10">
+			<revision name="1.9.1" status="release" pubdate="20121223035935" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="21">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4924" time="0" location="C:\Users\尚紀\.ivy2\cache\org.scalatest\scalatest_2.10\ivy-1.9.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.pom"/>
+				<caller organisation="pts_trader" name="pts_trader_2.10" conf="test, compile, runtime" rev="1.9.1" rev-constraint-default="1.9.1" rev-constraint-dynamic="1.9.1" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="scalatest_2.10" type="jar" ext="jar" status="no" details="" size="3114958" time="0" location="C:\Users\尚紀\.ivy2\cache\org.scalatest\scalatest_2.10\jars\scalatest_2.10-1.9.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.0" status="release" pubdate="20121220162932" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="23">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2584" time="0" location="C:\Users\尚紀\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="1.9.1"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3149351" time="0" location="C:\Users\尚紀\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.10.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-actors">
+			<revision name="2.10.0" status="release" pubdate="20121220163006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="22">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2580" time="0" location="C:\Users\尚紀\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="1.9.1"/>
+				<artifacts>
+					<artifact name="scala-actors" type="jar" ext="jar" status="no" details="" size="451307" time="0" location="C:\Users\尚紀\.ivy2\cache\org.scala-lang\scala-actors\jars\scala-actors-2.10.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-eval">
+			<revision name="1.12.13" status="release" pubdate="20120214082805" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="18">
+				<metadata-artifact status="no" details="" size="2531" time="0" location="C:\Users\尚紀\.ivy2\cache\com.twitter\util-eval\ivy-1.12.13.xml" searched="false" origin-is-local="false" origin-location="http://maven.twttr.com/com/twitter/util-eval/1.12.13/util-eval-1.12.13.pom"/>
+				<caller organisation="pts_trader" name="pts_trader_2.10" conf="test, compile, runtime" rev="1.12.13" rev-constraint-default="1.12.13" rev-constraint-dynamic="1.12.13" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="util-eval" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6316" time="0" location="C:\Users\尚紀\.ivy2\cache\com.twitter\util-eval\srcs\util-eval-1.12.13-sources.jar">
+						<origin-location is-local="false" location="http://maven.twttr.com/com/twitter/util-eval/1.12.13/util-eval-1.12.13-sources.jar"/>
+					</artifact>
+					<artifact name="util-eval" type="jar" ext="jar" status="no" details="" size="42902" time="0" location="C:\Users\尚紀\.ivy2\cache\com.twitter\util-eval\jars\util-eval-1.12.13.jar">
+						<origin-location is-local="false" location="http://maven.twttr.com/com/twitter/util-eval/1.12.13/util-eval-1.12.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-core">
+			<revision name="1.12.13" status="release" pubdate="20121213190018" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="20">
+				<metadata-artifact status="no" details="" size="2394" time="0" location="C:\Users\尚紀\.ivy2\cache\com.twitter\util-core\ivy-1.12.13.xml" searched="false" origin-is-local="false" origin-location="http://maven.twttr.com/com/twitter/util-core/1.12.13/util-core-1.12.13.pom"/>
+				<caller organisation="com.twitter" name="util-eval" conf="default, compile, runtime, master" rev="1.12.13" rev-constraint-default="1.12.13" rev-constraint-dynamic="1.12.13" callerrev="1.12.13"/>
+				<artifacts>
+					<artifact name="util-core" type="jar" ext="jar" status="no" details="" size="632306" time="0" location="C:\Users\尚紀\.ivy2\cache\com.twitter\util-core\jars\util-core-1.12.13.jar">
+						<origin-location is-local="false" location="http://maven.twttr.com/com/twitter/util-core/1.12.13/util-core-1.12.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.8.1" status="release" pubdate="20101110030239" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="19">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2627" time="0" location="C:\Users\尚紀\.ivy2\cache\org.scala-lang\scala-compiler\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.1/scala-compiler-2.8.1.pom"/>
+				<caller organisation="com.twitter" name="util-eval" conf="default, compile, runtime, master" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.12.13"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="8984943" time="0" location="C:\Users\尚紀\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.8.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.1/scala-compiler-2.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.webdriver" name="webdriver-htmlunit">
+			<revision name="0.9.7376" status="release" pubdate="20091008064004" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<metadata-artifact status="no" details="" size="3467" time="0" location="C:\Users\尚紀\.ivy2\cache\org.seleniumhq.webdriver\webdriver-htmlunit\ivy-0.9.7376.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/seleniumhq/webdriver/webdriver-htmlunit/0.9.7376/webdriver-htmlunit-0.9.7376.pom"/>
+				<caller organisation="pts_trader" name="pts_trader_2.10" conf="test, compile, runtime" rev="0.9.7376" rev-constraint-default="0.9.7376" rev-constraint-dynamic="0.9.7376" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="webdriver-htmlunit" type="jar" ext="jar" status="no" details="" size="28851" time="0" location="C:\Users\尚紀\.ivy2\cache\org.seleniumhq.webdriver\webdriver-htmlunit\jars\webdriver-htmlunit-0.9.7376.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/seleniumhq/webdriver/webdriver-htmlunit/0.9.7376/webdriver-htmlunit-0.9.7376.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.htmlunit" name="htmlunit">
+			<revision name="2.6" status="release" pubdate="20090903000015" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://htmlunit.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6366" time="0" location="C:\Users\尚紀\.ivy2\cache\net.sourceforge.htmlunit\htmlunit\ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.6/htmlunit-2.6.pom"/>
+				<caller organisation="org.seleniumhq.webdriver" name="webdriver-htmlunit" conf="default, compile, runtime, master" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="0.9.7376"/>
+				<artifacts>
+					<artifact name="htmlunit" type="jar" ext="jar" status="no" details="" size="856691" time="0" location="C:\Users\尚紀\.ivy2\cache\net.sourceforge.htmlunit\htmlunit\jars\htmlunit-2.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.6/htmlunit-2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20071127052410" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="10">
+				<metadata-artifact status="no" details="" size="3981" time="0" location="C:\Users\尚紀\.ivy2\cache\commons-logging\commons-logging\ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom"/>
+				<caller organisation="commons-httpclient" name="commons-httpclient" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="3.1"/>
+				<caller organisation="net.sourceforge.htmlunit" name="htmlunit" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.6"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="60686" time="0" location="C:\Users\尚紀\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.0.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="1.1.1"/>
+				<caller organisation="net.sourceforge.htmlunit" name="htmlunit" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.6"/>
+				<caller organisation="commons-httpclient" name="commons-httpclient" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="3.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="1.4" status="release" pubdate="20080121054407" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="17">
+				<metadata-artifact status="no" details="" size="3327" time="0" location="C:\Users\尚紀\.ivy2\cache\commons-io\commons-io\ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-io/commons-io/1.4/commons-io-1.4.pom"/>
+				<caller organisation="net.sourceforge.htmlunit" name="htmlunit" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="2.6"/>
+				<artifacts>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="109043" time="0" location="C:\Users\尚紀\.ivy2\cache\commons-io\commons-io\jars\commons-io-1.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-io/commons-io/1.4/commons-io-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.cssparser" name="cssparser">
+			<revision name="0.9.5" status="release" pubdate="20080328064902" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://cssparser.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="15">
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="2889" time="0" location="C:\Users\尚紀\.ivy2\cache\net.sourceforge.cssparser\cssparser\ivy-0.9.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.5/cssparser-0.9.5.pom"/>
+				<caller organisation="net.sourceforge.htmlunit" name="htmlunit" conf="compile, runtime" rev="0.9.5" rev-constraint-default="0.9.5" rev-constraint-dynamic="0.9.5" callerrev="2.6"/>
+				<artifacts>
+					<artifact name="cssparser" type="jar" ext="jar" status="no" details="" size="253950" time="0" location="C:\Users\尚紀\.ivy2\cache\net.sourceforge.cssparser\cssparser\jars\cssparser-0.9.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.5/cssparser-0.9.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.w3c.css" name="sac">
+			<revision name="1.3" status="release" pubdate="20080323134250" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.w3.org/Style/CSS/SAC/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="16">
+				<license name="The W3C Software License" url="http://www.w3.org/Consortium/Legal/copyright-software-19980720"/>
+				<metadata-artifact status="no" details="" size="2414" time="0" location="C:\Users\尚紀\.ivy2\cache\org.w3c.css\sac\ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/w3c/css/sac/1.3/sac-1.3.pom"/>
+				<caller organisation="net.sourceforge.cssparser" name="cssparser" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.9.5"/>
+				<artifacts>
+					<artifact name="sac" type="jar" ext="jar" status="no" details="" size="15808" time="0" location="C:\Users\尚紀\.ivy2\cache\org.w3c.css\sac\jars\sac-1.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/w3c/css/sac/1.3/sac-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.nekohtml" name="nekohtml">
+			<revision name="1.9.13" status="release" pubdate="20090902174521" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nekohtml.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="14">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2541" time="0" location="C:\Users\尚紀\.ivy2\cache\net.sourceforge.nekohtml\nekohtml\ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.13/nekohtml-1.9.13.pom"/>
+				<caller organisation="net.sourceforge.htmlunit" name="htmlunit" conf="compile, runtime" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="2.6"/>
+				<artifacts>
+					<artifact name="nekohtml" type="jar" ext="jar" status="no" details="" size="121981" time="0" location="C:\Users\尚紀\.ivy2\cache\net.sourceforge.nekohtml\nekohtml\jars\nekohtml-1.9.13.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.13/nekohtml-1.9.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xerces" name="xercesImpl">
+			<revision name="2.9.1" status="release" pubdate="20081002071919" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xerces.apache.org/xerces2-j" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="13">
+				<metadata-artifact status="no" details="" size="2978" time="0" location="C:\Users\尚紀\.ivy2\cache\xerces\xercesImpl\ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom"/>
+				<caller organisation="net.sourceforge.htmlunit" name="htmlunit" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.6"/>
+				<artifacts>
+					<artifact name="xercesImpl" type="jar" ext="jar" status="no" details="" size="1229125" time="0" location="C:\Users\尚紀\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.9.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.htmlunit" name="htmlunit-core-js">
+			<revision name="2.6" status="release" pubdate="20090902184702" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://htmlunit.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="12">
+				<license name="Mozilla Public License version 1.1" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
+				<metadata-artifact status="no" details="" size="2549" time="0" location="C:\Users\尚紀\.ivy2\cache\net.sourceforge.htmlunit\htmlunit-core-js\ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.6/htmlunit-core-js-2.6.pom"/>
+				<caller organisation="net.sourceforge.htmlunit" name="htmlunit" conf="compile, runtime" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="2.6"/>
+				<artifacts>
+					<artifact name="htmlunit-core-js" type="jar" ext="jar" status="no" details="" size="717622" time="0" location="C:\Users\尚紀\.ivy2\cache\net.sourceforge.htmlunit\htmlunit-core-js\jars\htmlunit-core-js-2.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.6/htmlunit-core-js-2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.4" status="release" pubdate="20090810062217" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="11">
+				<metadata-artifact status="no" details="" size="5035" time="0" location="C:\Users\尚紀\.ivy2\cache\commons-codec\commons-codec\ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.pom"/>
+				<caller organisation="commons-httpclient" name="commons-httpclient" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="3.1"/>
+				<caller organisation="net.sourceforge.htmlunit" name="htmlunit" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="2.6"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="58160" time="0" location="C:\Users\尚紀\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="1.4"/>
+				<caller organisation="net.sourceforge.htmlunit" name="htmlunit" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="2.6"/>
+				<caller organisation="commons-httpclient" name="commons-httpclient" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="3.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-httpclient" name="commons-httpclient">
+			<revision name="3.1" status="release" pubdate="20070821224407" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/httpcomponents/httpclient-3.x/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="9">
+				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3188" time="0" location="C:\Users\尚紀\.ivy2\cache\commons-httpclient\commons-httpclient\ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.pom"/>
+				<caller organisation="net.sourceforge.htmlunit" name="htmlunit" conf="compile, runtime" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="2.6"/>
+				<artifacts>
+					<artifact name="commons-httpclient" type="jar" ext="jar" status="no" details="" size="305001" time="0" location="C:\Users\尚紀\.ivy2\cache\commons-httpclient\commons-httpclient\jars\commons-httpclient-3.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.4" status="release" pubdate="20080319144228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="8">
+				<metadata-artifact status="no" details="" size="4686" time="0" location="C:\Users\尚紀\.ivy2\cache\commons-lang\commons-lang\ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.pom"/>
+				<caller organisation="net.sourceforge.htmlunit" name="htmlunit" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="2.6"/>
+				<artifacts>
+					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="261809" time="0" location="C:\Users\尚紀\.ivy2\cache\commons-lang\commons-lang\jars\commons-lang-2.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20080415100924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="7">
+				<metadata-artifact status="no" details="" size="4632" time="0" location="C:\Users\尚紀\.ivy2\cache\commons-collections\commons-collections\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
+				<caller organisation="net.sourceforge.htmlunit" name="htmlunit" conf="compile, runtime" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="2.6"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="575389" time="0" location="C:\Users\尚紀\.ivy2\cache\commons-collections\commons-collections\jars\commons-collections-3.2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xalan" name="xalan">
+			<revision name="2.7.1" status="release" pubdate="20080930170254" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/xalan-j/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
+				<metadata-artifact status="no" details="" size="2958" time="0" location="C:\Users\尚紀\.ivy2\cache\xalan\xalan\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/xalan/xalan/2.7.1/xalan-2.7.1.pom"/>
+				<caller organisation="net.sourceforge.htmlunit" name="htmlunit" conf="compile, runtime" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="2.6"/>
+				<artifacts>
+					<artifact name="xalan" type="jar" ext="jar" status="no" details="" size="3176148" time="0" location="C:\Users\尚紀\.ivy2\cache\xalan\xalan\jars\xalan-2.7.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/xalan/xalan/2.7.1/xalan-2.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xalan" name="serializer">
+			<revision name="2.7.1" status="release" pubdate="20080930170254" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/xalan-j/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="5">
+				<metadata-artifact status="no" details="" size="2768" time="0" location="C:\Users\尚紀\.ivy2\cache\xalan\serializer\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/xalan/serializer/2.7.1/serializer-2.7.1.pom"/>
+				<caller organisation="xalan" name="xalan" conf="compile, runtime" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="2.7.1"/>
+				<artifacts>
+					<artifact name="serializer" type="jar" ext="jar" status="no" details="" size="278281" time="0" location="C:\Users\尚紀\.ivy2\cache\xalan\serializer\jars\serializer-2.7.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/xalan/serializer/2.7.1/serializer-2.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xml-apis" name="xml-apis">
+			<revision name="1.3.04" status="release" pubdate="20061222223752" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/commons/components/external/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="6">
+				<metadata-artifact status="no" details="" size="2847" time="0" location="C:\Users\尚紀\.ivy2\cache\xml-apis\xml-apis\ivy-1.3.04.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.pom"/>
+				<caller organisation="xerces" name="xercesImpl" conf="compile, runtime" rev="1.3.04" rev-constraint-default="1.3.04" rev-constraint-dynamic="1.3.04" callerrev="2.9.1"/>
+				<caller organisation="xalan" name="serializer" conf="compile, runtime" rev="1.3.04" rev-constraint-default="1.3.04" rev-constraint-dynamic="1.3.04" callerrev="2.7.1"/>
+				<artifacts>
+					<artifact name="xml-apis" type="jar" ext="jar" status="no" details="" size="194354" time="0" location="C:\Users\尚紀\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.3.04.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.webdriver" name="webdriver-common">
+			<revision name="0.9.7376" status="release" pubdate="20091008063944" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
+				<metadata-artifact status="no" details="" size="2843" time="0" location="C:\Users\尚紀\.ivy2\cache\org.seleniumhq.webdriver\webdriver-common\ivy-0.9.7376.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/seleniumhq/webdriver/webdriver-common/0.9.7376/webdriver-common-0.9.7376.pom"/>
+				<caller organisation="org.seleniumhq.webdriver" name="webdriver-htmlunit" conf="default, compile, runtime, master" rev="0.9.7376" rev-constraint-default="0.9.7376" rev-constraint-dynamic="0.9.7376" callerrev="0.9.7376"/>
+				<artifacts>
+					<artifact name="webdriver-common" type="jar" ext="jar" status="no" details="" size="42871" time="0" location="C:\Users\尚紀\.ivy2\cache\org.seleniumhq.webdriver\webdriver-common\jars\webdriver-common-0.9.7376.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/seleniumhq/webdriver/webdriver-common/0.9.7376/webdriver-common-0.9.7376.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.0" status="release" pubdate="20121220162916" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2421" time="0" location="C:\Users\尚紀\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.pom"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="2.8.1"/>
+				<caller organisation="com.twitter" name="util-core" conf="compile, runtime" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.12.13"/>
+				<caller organisation="org.scala-lang" name="scala-actors" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.10.0"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.10.0"/>
+				<caller organisation="pts_trader" name="pts_trader_2.10" conf="test, compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.1.0"/>
+				<caller organisation="org.scalatest" name="scalatest_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="1.9.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7114639" time="0" location="C:\Users\尚紀\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.8.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="2.10.0"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="2.8.1"/>
+				<caller organisation="com.twitter" name="util-core" conf="compile, runtime" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.12.13"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
